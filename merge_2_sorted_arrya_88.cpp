@@ -1,4 +1,5 @@
-class Solution {
+#include <bits/stdc++.h>
+ class Solution {
 public:
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
         int i=0;
@@ -18,7 +19,8 @@ public:
                 k++;
             }
         }
-        // Remaining elements of nums1(remaining elements when either of the array is exhausted)
+        // Remaining elements of nums1
+        // (remaining elements when either of the array is exhausted)
         while(i < m) {
             temp[k] = nums1[i];
             i++;
@@ -26,6 +28,7 @@ public:
         }
 
         // Remaining elements of nums2
+        // (remaining elements when either of the array is exhausted)
         while(j < n) {
             temp[k] = nums2[j];
             j++;

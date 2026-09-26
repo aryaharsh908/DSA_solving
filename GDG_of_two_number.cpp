@@ -1,4 +1,4 @@
-/*class Solution {     // my soluton
+class Solution {     // my soluton
 public:
     int GCD(int n1,int n2) {
         if(n1==n2)
@@ -11,7 +11,7 @@ public:
         }
 
     }
-}; */
+}; 
 
 #include <bits/stdc++.h>  //optimal solution
 using namespace std;
